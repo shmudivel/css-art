@@ -1,0 +1,145 @@
+body {
+    background-color: #151845;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 370px;
+    width: 370px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.moon {
+    background-color: #39beff;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.water {
+    height: 100px;
+    width: 300px;
+    background-color: #fdcf0f;
+}
+.waves {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 170px;
+    height: 170px;
+    background-size: 40px 40px;
+    background-image: radical-gradient(
+        circle at 20px -5px,
+        transparent 22px,
+        #2d90af 18px);
+        background-repeat: repeat;
+}
+.waves:before{
+    position: absolute;
+    content: "";
+    background-color: #2d90af;
+    height: 30px;
+    width: 100vw;
+    bottom: -30px;
+}
+
+
+.shipBody {
+    width: 150px;
+    height: 10px;
+    background-color: #7c6402;
+    border-radius: 70%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 140px;
+}
+.mast {
+    background-color: #77655e;
+    height: 160px;
+    width: 10px;
+    position: absolute;
+    left: 180px;
+    right: 0;
+    bottom: 140px;
+    border-radius: 40px 40px 0 0;
+}
+.sail {
+    height: 145px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 20px 0px 0 1px #b1a497;
+    position: absolute;
+    left: 141px;
+    right: 0;
+    bottom: 140px;
+    top: 70px;
+}
+
+/* .crater {
+    background-color: #31b4ff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+} */
+
+/* .crater:before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: -5px 0 0 2px #1ca4f9;
+    top: 2px;
+    left: 7px;
+} */
+/* .crater-1 {
+    top: 27px;
+    left:  90px;
+    transform: scale(0.9);
+}
+.crater-2 {
+    bottom: 15px;
+    left: 61px;
+    transform: scale(0.6);
+} */
+/* .crater-3 {
+    left: 15px;
+    transform: scale(0.75);
+}
+.crater-4 {
+    left: 107px;
+    top: 32px;
+    transform: scale(1.18);
+}
+.crater-5 {
+    left: 33px;
+    bottom: 4px;
+    transform: scale(0.65);
+} */
+
+/* .shadow {
+    height: 190px;
+    width: 190px;
+    box-shadow: 21px 0 0 5px rgba(0,0,0,0.100);
+    border-radius: 50%;
+    position: relative;
+    bottom: 157.5px;
+    right: 46px;
+} */
